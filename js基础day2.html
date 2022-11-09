@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="z-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Group buying  html+css/css/lianxi.css" />
+    <style>
+      /* 乘法表  */
+      /*  div {
+            display: inline-block;
+            width: 100px;
+            height: 25px;
+            line-height: 25px;
+            margin: 5px;
+            padding: 0 10px;
+            border: 1px solid #222;
+            text-align: center;
+            background-color: #e5e5e5;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,.2)
+            
+        } */
+      /* 柱状图 css */
+      /*   * {
+        padding: 0;
+        margin: 0;
+      }
+      .box {
+        display: flex;
+        width: 700px;
+        height: 300px;
+        border-left: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        margin: 50px auto;
+        justify-content: space-around;
+        align-items: flex-end;
+        text-align: center;
+      }
+      .box div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50px;
+        background-color: skyblue;
+      }
+      .box div span {
+        margin-top: -20px;
+      }
+      .box div h4 {
+        margin-bottom: -35px;
+        width: 70px;
+        margin-left: -10px;
+      } */
+/*       * {
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        list-style: none;
+      }
+      body {
+        background-color: #f5f5f5;
+      }
+      #head {
+        display: flex;
+        width: 1226px;
+        height: 628px;
+        margin: 100px auto;
+
+      }
+      .left {
+        width: 234px;
+        height: 614px;
+      }
+      .left img {
+        width: 234px;
+        height: 614px;
+      }
+      .right {
+        width: 992px;
+        height: 614px;
+      }
+      .right img {
+        width: 160px;
+        height: 160px;
+      }
+      .right li {
+        display: inline-block;
+        width: 234px;
+        height: 300px;
+        text-align: center;
+        padding: 0;
+        margin-left: 10px;
+        margin-bottom: 8px;
+        background-color: #fff;
+      }
+      .right li:nth-child(-n + 3) {
+        margin-top: 3px;
+      }
+      .right li:nth-child(n + 3) {
+        margin-top: 3px;
+      }
+      .right li div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 120px;
+      }
+      .right-p {
+        color: #ffc095;
+        font-weight: 700;
+      } */
+    </style>
+  </head>
+  <body>
+
+    <!-- <div class="box">
+      <div style="height: 123px">
+        <span>123</span>
+        <h4>第一季度</h4>
+      </div>
+      <div style="height: 156px">
+        <span>156</span>
+        <h4>第二季度</h4>
+      </div>
+      <div style="height: 170px">
+        <span>170</span>
+        <h4>第三季度</h4>
+      </div>
+      <div style="height: 110px">
+        <span>110</span>
+        <h4>第四季度</h4>
+      </div>
+    </div> -->
+
+    <!-- 小米 项目狂 start -->
+<!--     <div id="head">
+        <div class="left">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./Group buying  html+css/小米手机.webp" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+            <li>
+              <img src="./Group buying  html+css/images/手机.webp" alt="" />
+              <div>
+                <p>Redmi Note 12 5G</p>
+                <span>三星 OLEO 护眼屏 </span>
+                <span class="right-p">1199元起</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    <script>
+      /*         function getScore(a) {
+            let sum = 0
+            for (let i = 0; i < a.length; i++) {
+                sum += a[i]
+            }
+            document.write(sum)
+        }
+        getScore([100,50,100]) */
+      /*      function num(x,y) {
+            x = x || 0
+            y = y || 0
+            document.write(x + y)
+        }
+        num(2,8) 
+        num(1,5) */
+      /* let arr = [2,0,6,1,77,0,52,0,25,7]
+        let newArr = []
+        for (let i = 0; i < arr.length + 1; i++) {
+            if (arr[i] !== 0) {
+                newArr.push(arr[i])
+            }
+        }
+        document.write(newArr) */
+      /*   let arr = [5,8,9,2,1,5]
+        let sum = 0
+        // console.log(arr.length)
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i]
+        }
+        document.write(sum) */
+      /*   let arr = [4,9,5,20,3,11]
+        let sum = 0
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > 5) {
+                sum += arr[i]
+            }
+        }
+        document.write(sum) */
+      //   let arr = [15, 19, 21, 33, 18, 24];
+      //平均年龄 average
+      //   let average = 0;
+      /* let sum = 0;
+      for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+        //    console.log(average)
+      }
+      let average = sum / arr.length
+      document.write(sum);
+      document.write(`这一串数字的平均值是${average}`); */
+      /*    let add = []
+      let arr = [5,2,8,10,3,7]
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0) {
+            add.push(arr[i])
+        }
+      }
+      console.log(add) */
+      /* function getNum(a,b) {
+            let sum = 0
+            for (let i = a; i <= b; i++) {
+                sum +=i
+            }
+            document.write(sum)
+        }
+        getNum(1,100) */
+      // 柱状图 start
+      /*  let arr = [];
+      for (let i = 1; i <= 4; i++) {
+        
+        let price = arr.push(prompt(`请输入第${i}个季度的数据`));
+      }
+      document.write(`<div class="box">`);
+      // 四次循环
+      for (let i = 0; i < arr.length; i++) {
+        document.write(` 
+            <div style="height: ${arr[i]}px">
+            <span>${arr[i]}</span>
+            <h4>第${i + 1}季度</h4>
+            </div>
+            `);
+      }
+      document.write(`</div>`); */
+      // console.log(arr)
+      // let a = ['red','blue','pink']
+      // a.pop()
+      /*   a.splice(0)
+        console.log(a) */
+      /*      let arr = [2,0,6,1,77,0,52,0,25,7]
+        let arra = []
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] >= 10) {
+                arra.push(arr[i])
+            }
+        } */
+
+      /*  let arr = [1, 7, 8, 5, 10]
+        let all = 0
+        let average = 0
+        for (let i = 0; i < arr.length; i++) {
+            all += arr[i]
+            // average = all / arr.length
+        }
+        average = all / arr.length
+        document.write(`这五个数的总和是${all},平均数是${average}`) */
+      // 乘法表start
+      /*       for (let i = 1; i <= 9; i++) {
+        for (let a = 1; a <= i; a++) {
+          document.write(`
+          <div>
+            ${a} * ${i} = ${i * a}
+            </div>
+          `);
+        }
+        document.write(`<br>
+            `);
+      } */
+      /*  for (let i = 0; i < 5; i++) {
+            for (let c = 0; c < 5; c++) {
+                document.write('@')
+            }
+            document.write(`<br>`)
+        } */
+      /*       for (let i = 0; i < 4; i++) {
+            document.write(`今天是第${i}天<br>`)
+            for (let word = 0; word < 6; word++) {
+                document.write(`这是今天喝的第${word}杯水<br>`)
+            }
+        } */
+      /*    let num = 0
+        for (let i = 0; i <= 100; i++) {
+            if (i % 2 === 0) {
+                num += i
+            }
+        } */
+      // document.write(num)
+      /*      for (let i = 0; i % 2 === 0 && i <100; i++) {
+            let all = i + i
+           
+        } */
+      //   document.write(all);
+      /*  for (let i = 1; i <= 100; i++) {
+            document.write(`我今年${i}岁了<br>` )
+        } */
+      // document.write(`
+      // <ol>
+      // <p>请选择你的操作</p>
+      // <li>存款</li>
+      // <li>取款</li>
+      // <li>查看余额</li>
+      // <li>退出</li>
+      // </ol>
+      // `)
+
+      //   提款机 start
+      /*      let money = 200;
+      while (true) {
+        let bill = prompt(`
+        请选择操作：
+           1:存钱
+           2:取钱
+           3:查看余额
+           4:退出
+      `);
+        switch (bill) {
+          case "1":
+            let firstMoney = +prompt("请输入存入金额");
+            money = money + firstMoney;
+            break;
+          case "2":
+            let lastMoney = +prompt("请输入取出金额");
+            money = money - lastMoney;
+            break;
+          case "3":
+            alert(`当前的余额为${money}元`);
+            break;
+        }
+        if (bill === "4") {
+          break;
+        }
+      } */
+
+      /*      if (eat === '吃了') {
+            document.write('很好，继续保持')
+        } else {
+            alert('记得暗示吃早饭')
+        } */
+      /*        while (true) {
+            let eat = prompt('你今天吃早饭了吗')
+            if (eat === '吃了') {
+                alert('很好，继续坚持')
+                break
+            }
+        } */
+    </script>
+  </body>
+</html>
